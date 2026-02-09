@@ -1,0 +1,67 @@
+header{
+	background-color:black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	color:white;
+	list-style-type: none;
+	border-radius:30px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	background-color:white;
+	color:black;
+	padding:8px;
+	border-radius:20px;
+}
+
+li{
+	display:flex;
+	flex-direction:row;
+}
+h1{
+	animation-name:animation;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+@keyframes animation{
+	25% {color:red;}
+	50% {color:blue;}
+	75% {color:violet;}
+	100% {color:yellow;}
+}
+.container{
+	display:flex;
+	justify-content:space-around;
+	align-items:center:
+}
+.card{
+	border:black solid 2px;
+	background-color:black;
+	color:white;
+	border-radius:20px;
+	padding:30px;
+	text-align:center;
+}
+.card:hover{
+	transition:1s;
+	box-shadow:10px 10px;
+	color:black;
+	background-color:red;
+	padding:40px;
+}
+fieldset{
+	border:black solid 3px;
+	border-radius:20px;
+	margin-top:40px;
+	padding:30px;
+}
+
+img{
+	border:black solid 2px;
+}
